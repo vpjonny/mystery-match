@@ -44,7 +44,7 @@ export default function LoginScreen({ navigation }: Props) {
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     >
       <View style={styles.inner}>
-        <Text style={styles.logo}>✦</Text>
+        <Text style={styles.logo}>❤️‍🔥</Text>
         <Text style={styles.title}>Mystery Match</Text>
         <Text style={styles.subtitle}>One match. One day. One chance.</Text>
 

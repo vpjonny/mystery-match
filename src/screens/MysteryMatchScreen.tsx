@@ -149,7 +149,7 @@ export default function MysteryMatchScreen() {
       <View style={styles.container}>
         <View style={styles.emptyState}>
           <Animated.Text style={[styles.mysteryIcon, { transform: [{ scale: pulseAnim }] }]}>
-            ✦
+            ❓❤️
           </Animated.Text>
           <Text style={styles.emptyTitle}>No Match Yet</Text>
           <Text style={styles.emptySubtitle}>
@@ -250,7 +250,7 @@ export default function MysteryMatchScreen() {
           disabled={match.revealLevel >= 3}
         >
           <Text style={styles.interactText}>
-            {match.revealLevel >= 3 ? 'Fully Revealed ✓' : '✦ Tap to Reveal More'}
+            {match.revealLevel >= 3 ? 'Fully Revealed ✓' : '❓❤️ Tap to Reveal More'}
           </Text>
         </TouchableOpacity>
       </Animated.View>

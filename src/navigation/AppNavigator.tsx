@@ -18,7 +18,7 @@ const Tab = createBottomTabNavigator<MainTabParamList>();
 
 function TabIcon({ label, focused }: { label: string; focused: boolean }) {
   const icons: Record<string, string> = {
-    Match: '✦',
+    Match: '❓❤️',
     Matches: '💬',
     Profile: '👤',
   };

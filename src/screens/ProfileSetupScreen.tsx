@@ -86,6 +86,10 @@ export default function ProfileSetupScreen({ navigation }: Props) {
       <TouchableOpacity style={styles.button} onPress={handleContinue}>
         <Text style={styles.buttonText}>Start Matching</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity style={styles.skipButton} onPress={() => navigation.replace('Main')}>
+        <Text style={styles.skipText}>Skip for now</Text>
+      </TouchableOpacity>
     </ScrollView>
   );
 }
@@ -180,5 +184,14 @@ const styles = StyleSheet.create({
     color: colors.text,
     fontSize: fontSize.lg,
     fontWeight: '700',
+  },
+  skipButton: {
+    padding: spacing.md,
+    alignItems: 'center',
+    marginTop: spacing.sm,
+  },
+  skipText: {
+    color: colors.textMuted,
+    fontSize: fontSize.md,
   },
 });
